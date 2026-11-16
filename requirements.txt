@@ -1,0 +1,11 @@
+# Third-party packages imported by the notebooks in this repository.
+# (random, math and os are Python standard library.)
+numpy
+pandas
+scipy             # >= 1.6 needed for ttest_ind(alternative=...) in the dengue experiment
+matplotlib
+seaborn           # used by earlier lab notebooks
+sympy             # used by earlier lab notebooks
+jupyter           # to open and run the .ipynb files
+# The dengue notebook was executed successfully with:
+#   numpy 2.0.2, pandas 2.3.3, scipy 1.13.1, matplotlib 3.9.4 (Python 3.9)
